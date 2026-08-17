@@ -1,0 +1,17 @@
+{
+  "name": "Bloom Electronic",
+  "short_name": "Bloom",
+  "description": "Electronic product engineering in Malaysia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050911",
+  "theme_color": "#050911",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
