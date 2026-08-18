@@ -1,0 +1,23 @@
+name = "bloom-lead-api"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://bloomelectronics.my,https://www.bloomelectronics.my"
+LEAD_DESTINATION_EMAIL = "alif.f@bloomelectronics.my"
+LEAD_FROM_EMAIL = "Bloom Website <enquiries@send.bloomelectronics.my>"
+MIN_SUBMIT_MS = "2500"
+RATE_LIMIT_PER_HOUR = "6"
+SEND_CUSTOMER_ACKNOWLEDGEMENT = "false"
+
+# Create these bindings with your own account identifiers before deployment.
+# [[kv_namespaces]]
+# binding = "LEAD_GUARD"
+# id = "replace_with_kv_namespace_id"
+
+# [[d1_databases]]
+# binding = "LEADS_DB"
+# database_name = "bloom-leads"
+# database_id = "replace_with_d1_database_id"
+
+# Store RESEND_API_KEY and optional TURNSTILE_SECRET_KEY using `wrangler secret put`.
