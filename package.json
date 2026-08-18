@@ -8,7 +8,7 @@
     "build": "vite build && node scripts/generate-static-pages.mjs && node scripts/prepare-sites-build.mjs",
     "preview": "vite preview",
     "test": "npm run build && node --test tests/*.test.mjs",
-    "test:unit": "node --test tests/accessibility.test.mjs tests/analytics.test.mjs tests/lead.test.mjs tests/lead-api.test.mjs tests/sites-worker.test.mjs",
+    "test:unit": "node --test tests/accessibility.test.mjs tests/analytics.test.mjs tests/lead.test.mjs tests/lead-api.test.mjs",
     "test:seo": "npm run build && node --test tests/routes-seo.test.mjs",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "check": "npm test"
